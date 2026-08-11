@@ -209,12 +209,22 @@ h2 span { color: var(--slate); }
   .skills-grid { grid-template-columns: 1fr; }
   .section-intro { display: block; }
   .section-intro p { margin-top: 18px; }
+  .project-stack, .project-panel, .project-grid, .project-grid > *, .project-meta, .service-list, .architecture-wrap, .lessons { min-width: 0; max-width: 100%; }
   .project-meta { display: block; }
+  .pattern, .service, .project-heading h3, .project-heading p, .problem-row span, .lessons li { overflow-wrap: anywhere; }
   .service-list { justify-content: flex-start; margin-top: 10px; }
+  .service { max-width: 100%; }
   .project-heading, .architecture-wrap { padding-left: 22px; padding-right: 22px; }
   .problem-row { grid-template-columns: 1fr; gap: 7px; padding-left: 22px; padding-right: 22px; }
+  .architecture { flex-direction: column; align-items: stretch; gap: 6px; overflow-x: visible; padding: 18px 0 8px; }
+  .arch-step { width: 100%; min-width: 0; flex-shrink: 1; flex-direction: column; align-items: stretch; gap: 6px; }
+  .node { width: 100%; min-width: 0; white-space: normal; padding: 10px 12px; }
+  .node span:last-child { min-width: 0; overflow-wrap: anywhere; }
+  .arch-arrow { align-self: center; line-height: 1; transform: rotate(90deg); }
+  .screenshot-frame { min-height: 0; }
   .gallery-thumbnails { gap: 5px; padding: 8px; }
   .gallery-thumbnail { flex-basis: 60px; width: 60px; }
+  .project-links { flex-wrap: wrap; }
   .footer { flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) {
