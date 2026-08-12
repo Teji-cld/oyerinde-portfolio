@@ -36,10 +36,10 @@ export default function App() {
         <section id="home" className="hero section">
           <div className="hero-copy">
             <div className="eyebrow">OYERINDE ABDULSOMAD AKINTEJIOYE</div>
-            <h1>I build systems that <em>scale.</em></h1>
+            <h1>Building Cloud &amp; <em>Backend Systems</em></h1>
             <p className="hero-sub">
-              Pharmacy student transitioning into Cloud &amp; Backend Engineering,
-              building practical infrastructure and serverless applications with AWS.
+              Cloud engineering learner building hands-on AWS infrastructure, serverless
+              applications, and scalable backend systems.
             </p>
             <div className="hero-actions">
               <a className="cta" href="#projects">View projects <ArrowUpRight size={15} /></a>
@@ -54,18 +54,22 @@ export default function App() {
           <SectionLabel>ABOUT / 01</SectionLabel>
           <div className="two-col">
             <div>
-              <h2>Learning through <span>systems.</span></h2>
+              <h2>Building through <span>systems.</span></h2>
             </div>
             <div className="about-copy">
               <p>
-                I am a Pharmacy student at the University of Ilorin who deliberately
-                moved toward cloud and backend engineering.
+                I&apos;m a cloud engineering learner focused on designing, deploying, and
+                understanding cloud infrastructure and backend systems with AWS.
               </p>
               <p>
-                I learn by building, breaking, rebuilding and explaining the systems
-                I work with. My current focus is AWS infrastructure, serverless
-                architecture, Python and the engineering principles behind reliable
-                cloud applications.
+                I&apos;ve built hands-on projects across highly available infrastructure,
+                serverless applications, API-driven systems, and cloud-based data
+                persistence. My approach is practical: learn the underlying concept,
+                build it independently, test it, and document what I learned.
+              </p>
+              <p>
+                I&apos;m currently expanding into event-driven architecture, Infrastructure
+                as Code, automation, containers, and DevOps.
               </p>
             </div>
           </div>
